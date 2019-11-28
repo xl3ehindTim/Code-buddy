@@ -1,1 +1,1 @@
-Welcome to code-buddy
+This is a automatic project creater made in Python.
