@@ -1,29 +1,33 @@
 import os
 from getArgs import getArgs
-from python import createPythonProject
-from javascript import createJavascriptProject
-from node import createNodeProject
-from html import createHtmlProject
-from php import createPhpProject
+from modules import python, javascript, html, php, bootstrap
 # from folder import file
 
 # code-buddy.py create (file type) (directory name)
+
+# Checks for "create"
 if getArgs(1) == "create":
+  # Checks for which file type
     projectType = getArgs(2)
+    # Checks for file name
     if projectType == "python":
         name = getArgs(3)
-        createPythonProject(name)
+        python.createPythonProject(name)
     elif projectType == "javascript":
         name = getArgs(3)
-        createJavascriptProject(name)
-    elif projectType == "node":
-        name = getArgs(3)
-        createNodeProject(name)
+        javascript.createJavascriptProject(name)
     elif projectType == "html":
         name = getArgs(3)
-        createHtmlProject(name)
+        html.createHtmlProject(name)
     elif projectType == "php":
         name = getArgs(3)
-        createPhpProject(name)
+        php.createPhpProject(name)
+    elif projectType == "bootstrap":
+        name = getArgs(3)
+        bootstrap.createPhpProject(name) 
+        # If not valid file type       
+    else:
+        print(f"argument {getArgs(2)} is unknown, try: 'python, javascript, html, php'")
 else:
-    print(f"argument {getArgs(1)} is unknown")
+    # If invalid "create"
+    print(f"argument {getArgs(1)} is unknown, use 'create' to create a folder")
