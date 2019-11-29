@@ -27,4 +27,4 @@ code-buddy create [language] [project name]
 *click new
 *add the path to the exe file into the list
 *click ok on all windows
-*CONGRATS. YOU JUST MADE YOU LIFE EASIER
+*CONGRATS. YOU JUST MADE YOU LIFE EASIER!
