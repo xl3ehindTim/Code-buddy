@@ -1,6 +1,3 @@
-Code-buddy
-=======
-
 ##What is it?
 ######So you're probably wondering what 'code-buddy' is.
 ######Code-buddy is a automatic project creater. You can use it to create a starting project so you don't need to create all the starting files and link
