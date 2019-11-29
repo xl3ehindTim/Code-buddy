@@ -27,7 +27,7 @@ if getArgs(1) == "create":
         bootstrap.createPhpProject(name) 
         # If not valid file type       
     else:
-        print(f"argument {getArgs(2)} is unknown, try: 'python, javascript, html, php'")
+        print(f"argument {getArgs(2)} is unknown, try: 'python, javascript, html, php or bootstrap'")
 else:
     # If invalid "create"
     print(f"argument {getArgs(1)} is unknown, use 'create' to create a folder")
