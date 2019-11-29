@@ -13,23 +13,23 @@ if getArgs(1) == "create":
     if projectType == "python":
         name = getArgs(3)
         python.createPythonProject(name)
-        print("Folder created succefully")
+        print("Folder created succesfully")
     elif projectType == "javascript":
         name = getArgs(3)
         javascript.createJavascriptProject(name)
-        print("Folder created succefully")
+        print("Folder created succesfully")
     elif projectType == "html":
         name = getArgs(3)
         html.createHtmlProject(name)
-        print("Folder created succefully")
+        print("Folder created succesfully")
     elif projectType == "php":
         name = getArgs(3)
         php.createPhpProject(name)
-        print("Folder created succefully")
+        print("Folder created succesfully")
     elif projectType == "bootstrap":
         name = getArgs(3)
         bootstrap.createPhpProject(name) 
-        print("Folder created succefully")
+        print("Folder created succesfully")
         # If not valid file type       
     else:
         print(f"argument {getArgs(2)} is unknown, try: 'python, javascript, html, php or bootstrap'")
