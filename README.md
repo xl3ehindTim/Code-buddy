@@ -1,4 +1,6 @@
-## What is it?
+# code-buddy
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## What is it? 
 ###### So you're probably wondering what 'code-buddy' is.
 ###### Code-buddy is a automatic project creater. You can use it to create a starting project so you don't need to create all the starting files and link them together
 ###### (for example: create a index.html file and a style.css file and link them together and also write a html, head and body tag) why bother doing things over and over again if you can just automate it?
