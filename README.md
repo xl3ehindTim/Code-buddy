@@ -13,16 +13,16 @@ code-buddy create [language] [project name]
 ```
 
 ## How to add to path?
-* click the windows logo in the bottom left
-* click the settings button (a gear)
-* click system
-* scroll down in the side bar until you see info/about
-* click info/about
-* at the right click the link called system info
-* click advanced system settings at the left of the window
-* click environment variables
-* select Path and click edit
-* click new
-* add the path to the exe file into the list
-* click ok on all windows
-* CONGRATS. YOU JUST MADE YOU LIFE EASIER!
+* Click the windows logo in the bottom left
+* Press the settings button (a gear)
+* Navigate to system
+* Scroll down in the side bar until you see info/about
+* Click info/about
+* At the right click the link called system info
+* Click advanced system settings at the left of the window
+* Click environment variables
+* Select Path and click edit
+* Click new
+* Add the path to the exe file into the list
+* Click ok on all windows
+* Congrats, you just made your life easier!
