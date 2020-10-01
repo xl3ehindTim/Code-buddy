@@ -1,6 +1,6 @@
 import os
 from getArgs import getArgs
-from modules import python, javascript, html, php, bootstrap
+from modules import python, javascript, html, php, bootstrap, cca
 # from folder import file
 
 # code-buddy.py create (file type) (directory name)
@@ -29,6 +29,10 @@ if getArgs(1) == "create":
     elif projectType == "bootstrap":
         name = getArgs(3)
         bootstrap.createPhpProject(name) 
+        print("Folder created succesfully")
+    elif projectType == "cca"
+        name = getArgs(3)
+        cca.createCcaProject(name)
         print("Folder created succesfully")
         # If not valid file type       
     else:
